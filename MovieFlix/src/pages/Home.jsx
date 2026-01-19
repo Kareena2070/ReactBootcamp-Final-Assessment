@@ -2,9 +2,9 @@ import { useMovies } from "../hooks/useMovies";
 import MovieCard from "../components/MovieCard";
 
 function Home(){
-    const {data: movies, isloading} = useMovies()
+    const { data: movies = [], isLoading } = useMovies()
 
-    if(isloading){
+    if (isLoading) {
         return <p>loading.............</p>
     }
 

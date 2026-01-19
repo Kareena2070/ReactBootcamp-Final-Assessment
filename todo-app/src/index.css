@@ -1,0 +1,23 @@
+
+.todoApp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 150px;
+  background-color: rgb(133, 111, 233);
+  min-height: 100vh;
+}
+
+.todoApp h1{
+  font-size: 100px;
+  margin-top: -300px;
+}
+
+.todo-lists{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: azure; */
+}
